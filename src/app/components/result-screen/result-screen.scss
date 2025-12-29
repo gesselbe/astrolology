@@ -1,0 +1,151 @@
+.glass-panel {
+    max-height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+
+    /* Custom Scrollbar for better aesthetics */
+    &::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.02);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 0.25);
+    }
+}
+
+.p-8 {
+    padding: 3rem;
+}
+
+.mb-6 {
+    margin-bottom: 2rem;
+}
+
+.mb-8 {
+    margin-bottom: 3rem;
+}
+
+.text-4xl {
+    font-size: 2.5rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.max-w-2xl {
+    max-width: 48rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.title-font {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+}
+
+.cosmic-identity {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.sign-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.card-label {
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: 0.75rem;
+    color: #bb86fc;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.sign-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    color: #fff;
+}
+
+.sign-desc {
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.horoscope-text {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 300;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    white-space: pre-line;
+    text-align: left;
+}
+
+.restart-btn {
+    font-size: 1.1rem !important;
+    padding: 1.25rem 2.5rem !important;
+    border-radius: 50px !important;
+    background-color: #00bfa5 !important;
+    color: #000 !important;
+}
+
+@keyframes popIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    70% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.animate-pop-in {
+    animation: popIn 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@media (max-width: 600px) {
+    .p-8 {
+        padding: 1rem;
+    }
+
+    .text-4xl {
+        font-size: 2rem;
+    }
+
+    .horoscope-text {
+        font-size: 1.1rem;
+    }
+
+    .cosmic-identity {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}

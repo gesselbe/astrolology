@@ -1,0 +1,23 @@
+@if (quizService.currentQuestion(); as question) {
+<div class="full-screen-center">
+    <div class="glass-panel p-6 w-full max-w-2xl animate-fade-in">
+
+        <!-- Progress Indicator or Question Count -->
+        <div class="mb-4 text-sm opacity-60 uppercase tracking-widest text-center">
+            Frage {{ quizService.currentQuestionIndex() + 1 }} von {{ quizService.questions().length }}
+        </div>
+
+        <h2 class="text-3xl font-bold mb-8 text-center">{{ question.text }}</h2>
+
+        <div class="options-grid">
+            @for (option of question.options; track option.value) {
+            <button class="option-card" (click)="selectOption(option)">
+                <span class="option-label">{{ option.value }}</span>
+                <span class="option-text">{{ option.label }}</span>
+            </button>
+            }
+        </div>
+
+    </div>
+</div>
+}

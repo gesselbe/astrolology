@@ -1,0 +1,220 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "text": "Was ist deine Lieblingsfarbe?",
+            "options": [
+                {
+                    "label": "Cremiges Papaya",
+                    "value": "A",
+                    "horoscopeFragment": "Weil deine Lieblingsfarbe cremiges Papaya ist, strahlst du eine aggressive Wärme aus, die andere emotional blendet und gelegentlich verbrennt."
+                },
+                {
+                    "label": "Honigmelone",
+                    "value": "B",
+                    "horoscopeFragment": "Mit Honigmelone als Lieblingsfarbe ziehst du Dinge an, die süß aussehen, aber selten dir gehören oder gut für dich sind."
+                },
+                {
+                    "label": "Geisterweiß",
+                    "value": "C",
+                    "horoscopeFragment": "Dass du Geisterweiß als Farbe gewählt hast, zeigt deine Liebe zu Konzepten, die existieren könnten, wenn man nur fest genug daran glaubt."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "text": "Welche Ängste und Sorgen hindern dich des öfteren am Einschlafen?",
+            "options": [
+                {
+                    "label": "Mikropenisse",
+                    "value": "A",
+                    "horoscopeFragment": "Deine Angst vor Mikropenissen hält dich nachts wach, obwohl sie rational betrachtet nichts mit deinem Leben zu tun haben – was dich aber nicht vom Grübeln abhält."
+                },
+                {
+                    "label": "Angst vor massivem Harndrang",
+                    "value": "B",
+                    "horoscopeFragment": "Die ständige Angst vor massivem Harndrang macht dich zu einem Menschen, der innerlich immer schon auf dem Weg zur Toilette ist."
+                },
+                {
+                    "label": "Euthanasie",
+                    "value": "C",
+                    "horoscopeFragment": "Weil dich Euthanasie beschäftigt, rutschst du nachts gedanklich direkt von Alltagssorgen in existenzielle Abgründe, ohne Umweg über Entspannung."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "text": "Welche Handlung verbindest du am ehesten mit Urlaub?",
+            "options": [
+                {
+                    "label": "Abnabeln",
+                    "value": "A",
+                    "horoscopeFragment": "Urlaub bedeutet für dich Abnabeln, also emotionales Wegwerfen von allem, was dich sonst halbwegs funktionsfähig hält."
+                },
+                {
+                    "label": "Dosenwerfen",
+                    "value": "B",
+                    "horoscopeFragment": "Wenn du an Urlaub denkst, denkst du an Dosenwerfen, was erklärt, warum Entspannung bei dir meist mit Kollateralschäden einhergeht."
+                },
+                {
+                    "label": "Trickbetrug",
+                    "value": "C",
+                    "horoscopeFragment": "Trickbetrug als Urlaubsassoziation verrät, dass du Erholung am ehesten dann spürst, wenn Regeln kreativ ausgelegt werden."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "text": "Du spürst Schmerzen im Unterleib. Wer ist schuld?",
+            "options": [
+                {
+                    "label": "Der MVV",
+                    "value": "A",
+                    "horoscopeFragment": "Dass du den MVV verantwortlich machst, zeigt dein tiefes Vertrauen darauf, dass öffentlicher Nahverkehr grundsätzlich körperliche Beschwerden verursacht."
+                },
+                {
+                    "label": "Reichsbürger oder andere gute Bekannte",
+                    "value": "B",
+                    "horoscopeFragment": "Du gibst Reichsbürgern oder ähnlichen Bekannten die Schuld, weil dein Körper offenbar sensibel auf Realitätsverweigerung reagiert."
+                },
+                {
+                    "label": "Papst Gregor IV persönlich",
+                    "value": "C",
+                    "horoscopeFragment": "Papst Gregor IV persönlich verantwortlich zu machen, passt zu deiner Neigung, selbst Bauchschmerzen historisch aufzuladen."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "text": "Welcher Vorname wirkt sich positiv auf deine Libido aus?",
+            "options": [
+                {
+                    "label": "Bernfried",
+                    "value": "A",
+                    "horoscopeFragment": "Dass ausgerechnet der Name Bernfried deine Libido ankurbelt, deutet auf eine sehr spezielle innere Dynamik hin, die niemand hinterfragen sollte."
+                },
+                {
+                    "label": "Rigobert",
+                    "value": "B",
+                    "horoscopeFragment": "Rigobert als Lustverstärker zeigt, dass du Stärke dort siehst, wo andere nur einen Versicherungsvertreter vermuten."
+                },
+                {
+                    "label": "Notburga",
+                    "value": "C",
+                    "horoscopeFragment": "Notburga als erotischer Trigger beweist, dass dein Begehren komplett unabhängig von gesellschaftlichen Erwartungen funktioniert."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "text": "Welches Körperteil macht dich stolz?",
+            "options": [
+                {
+                    "label": "Deine Gehörknöchelchen",
+                    "value": "A",
+                    "horoscopeFragment": "Du bist stolz auf deine Gehörknöchelchen, also auf etwas Winziges, das niemand sieht, aber ohne das du völlig verloren wärst."
+                },
+                {
+                    "label": "Deine Stinkefinger-Zehen",
+                    "value": "B",
+                    "horoscopeFragment": "Deine Stinkefinger-Zehen machen dich stolz, weil sie genauso widerspenstig sind wie dein restlicher Charakter."
+                },
+                {
+                    "label": "Dein Wurmfortsatz",
+                    "value": "C",
+                    "horoscopeFragment": "Dass du deinen Wurmfortsatz nennst, zeigt deine emotionale Bindung an nutzlose, aber irgendwie beruhigende Körperteile."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "text": "Du schreibst ein Lied. Über was geht es?",
+            "options": [
+                {
+                    "label": "Eierlikör & Freundschaft",
+                    "value": "A",
+                    "horoscopeFragment": "Ein Lied über Eierlikör und Freundschaft passt zu dir, weil du Gefühle am liebsten leicht alkoholisiert verarbeitest."
+                },
+                {
+                    "label": "Freinacht in Hogwarts",
+                    "value": "B",
+                    "horoscopeFragment": "Die Freinacht in Hogwarts als Thema verrät deinen Wunsch, dass Probleme sich einfach wegzaubern lassen."
+                },
+                {
+                    "label": "Hurensöhne im Allgemeinen",
+                    "value": "C",
+                    "horoscopeFragment": "Ein Lied über Hurensöhne im Allgemeinen zeigt, dass du dein Horoskop gern mit einem verbalen Rundumschlag beendest."
+                }
+            ]
+        }
+    ],
+    "zodiacs": [
+        {
+            "name": "Flötender Biber",
+            "horoscopeFragment": "Als Flötender Biber neigst du dazu, an den falschen Stellen Dämme zu bauen, meistens um deine eigenen Gefühle."
+        },
+        {
+            "name": "Fröstelnde Elchkuh",
+            "horoscopeFragment": "Die Fröstelnde Elchkuh in dir sorgt dafür, dass du dich emotional immer etwas unterkühlt gibst, obwohl du eigentlich nur eine warme Decke und Bestätigung brauchst."
+        },
+        {
+            "name": "Schnabelnder Tapir",
+            "horoscopeFragment": "Dein innerer Schnabelnder Tapir sucht ständig nach Zuneigung, meistens aber an Orten, wo es nur trockene Kekse gibt."
+        },
+        {
+            "name": "Notgeiles Wiesel",
+            "horoscopeFragment": "Das Notgeile Wiesel in deinem Horoskop deutet auf eine gewisse Rastlosigkeit hin, besonders wenn es um fragwürdige Entscheidungen geht."
+        },
+        {
+            "name": "Hüftkranker Iltis",
+            "horoscopeFragment": "Mit der Energie eines Hüftkranken Iltisses gehst du Dinge langsam an, nicht aus Geduld, sondern aus purer Vermeidungstaktik."
+        },
+        {
+            "name": "Jodelnder Jäger",
+            "horoscopeFragment": "Der Jodelnde Jäger in dir schreit förmlich nach Aufmerksamkeit, auch wenn du so tust, als wärst du gern allein im Wald."
+        },
+        {
+            "name": "Hinterfotziger Distelfink",
+            "horoscopeFragment": "Als Hinterfotziger Distelfink pickst du dir gern die besten Rosinen raus und lässt den anderen die stacheligen Reste."
+        },
+        {
+            "name": "Klappriger Zwerghamster",
+            "horoscopeFragment": "Dein spiritueller Klappriger Zwerghamster läuft motiviert im Rad, merkt aber nicht, dass das Rad gar nicht eingehängt ist."
+        }
+    ],
+    "ascendants": [
+        {
+            "name": "Eichelkäse",
+            "horoscopeFragment": "Mit Aszendent Eichelkäse haftet dir eine gewisse Aura an, die man nicht ignorieren kann, auch wenn man es gerne würde."
+        },
+        {
+            "name": "Achselbutter",
+            "horoscopeFragment": "Dein Aszendent Achselbutter sorgt dafür, dass Situationen mit dir oft eine rutschige Angelegenheit werden."
+        },
+        {
+            "name": "Tränengulasch",
+            "horoscopeFragment": "Dass dein Aszendent Tränengulasch ist, erklärt deinen Hang dazu, in deinem eigenen Elend zu baden, bis es gar ist."
+        },
+        {
+            "name": "Maulsülze",
+            "horoscopeFragment": "Aszendent Maulsülze bedeutet, dass du viel redest, wenn der Tag lang ist, aber am Ende wenig Substanz übrig bleibt."
+        },
+        {
+            "name": "Pickel-Joghurt",
+            "horoscopeFragment": "Mit Pickel-Joghurt im Aszendenten platzt du oft im ungünstigsten Moment mit der Wahrheit heraus."
+        }
+    ],
+    "startBlocks": [
+        "Das Universum hat deine fragwürdigen Lebensentscheidungen der letzten Wochen eingehend geprüft, sich kurz beraten und Folgendes festgestellt:",
+        "Nach Konsultation der alten Schriftrollen und einem kurzen Blick in deine Browser-History ist das kosmische Urteil für dich ziemlich eindeutig:",
+        "Die Sterne haben sich heute Nacht in einer sehr seltsamen Formation ausgerichtet, wahrscheinlich nur um über dein Liebesleben zu lachen, und enthüllen nun diese Prophezeiung:",
+        "Deine kosmische Energie vibriert heute auf einer Frequenz, die irgendwo zwischen 'Obdachlos' und 'Notgeil' liegt, was zu folgender Vorhersage führt:"
+    ],
+    "endBlocks": [
+        "Zusammenfassend lässt sich sagen: Viel Glück, du wirst es definitiv brauchen, besonders an Dienstagen.",
+        "Schließlich, denke immer daran: Merkur verurteilt dich nicht direkt, aber er schreibt definitiv alles in sein Notizbuch.",
+        "Um es kurz zusammenzufassen: Vermeide Leitern, schwarze Katzen und wichtige finanzielle Entscheidungen, bis der Mond wieder normal aussieht.",
+        "Das Fazit der Sterne: Bleib so wie du bist, denn für eine Änderung ist es jetzt sowieso zu spät.",
+        "Abschließend rät das Universum: Nimm das Leben nicht so ernst, du kommst hier eh nicht lebend raus."
+    ]
+}

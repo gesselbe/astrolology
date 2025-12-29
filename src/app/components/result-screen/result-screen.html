@@ -1,0 +1,30 @@
+<div class="full-screen-center">
+    <div class="glass-panel p-8 animate-pop-in max-w-2xl">
+        <h2 class="text-4xl font-bold mb-6 text-gradient title-font">Deine Kosmische Wahrheit</h2>
+
+        @if (quizService.myZodiac(); as zodiac) {
+        <div class="cosmic-identity mb-8">
+            <div class="sign-card">
+                <div class="card-label">Sternzeichen</div>
+                <div class="sign-name">{{ zodiac.name }}</div>
+                <!-- Description removed as per request -->
+            </div>
+
+            @if (quizService.myAscendant(); as ascendant) {
+            <div class="sign-card">
+                <div class="card-label">Aszendent</div>
+                <div class="sign-name">{{ ascendant.name }}</div>
+            </div>
+            }
+        </div>
+        }
+
+        <div class="horoscope-text mb-8">
+            {{ quizService.horoscope() }}
+        </div>
+
+        <button mat-flat-button color="accent" class="restart-btn glow-button" (click)="restart()">
+            Schicksal akzeptieren
+        </button>
+    </div>
+</div>

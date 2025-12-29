@@ -1,1 +1,75 @@
-/* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;900&display=swap');
+
+html {
+  height: 100%;
+  font-size: 0.85rem;
+  @include mat.theme((color: (theme-type: dark,
+        primary: mat.$violet-palette,
+        tertiary: mat.$cyan-palette,
+      ),
+      typography: (plain-family: 'Outfit, sans-serif',
+        brand-family: 'Outfit, sans-serif',
+        bold-weight: 700,
+        medium-weight: 500,
+        regular-weight: 300),
+      density: 0,
+    ));
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  // Deep space background
+  background-color: #030014; // Very dark violet/black
+  background-image:
+    radial-gradient(circle at 15% 50%, rgba(76, 29, 149, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 85% 30%, rgba(124, 58, 237, 0.15) 0%, transparent 50%);
+
+  color: var(--mat-sys-on-surface);
+  font-family: 'Outfit', sans-serif;
+  overflow-x: hidden;
+}
+
+// Utilities
+.glass-panel {
+  background: rgba(20, 20, 35, 0.4);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #d8b4fe 0%, #2dd4bf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.full-screen-center {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+// Global Button override for "wow" factor if needed, 
+// using Material classes but customizing
+.glow-button {
+  box-shadow: 0 0 15px rgba(124, 58, 237, 0.5) !important;
+  transition: all 0.3s ease !important;
+
+  &:hover {
+    box-shadow: 0 0 25px rgba(124, 58, 237, 0.8) !important;
+    transform: translateY(-2px);
+  }
+}
