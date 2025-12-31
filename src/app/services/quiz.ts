@@ -141,12 +141,20 @@ export class QuizService {
     const zodiacs = this.zodiacsSignal();
     const ascendants = this.ascendantsSignal();
 
+    // Use crypto.getRandomValues for better distribution if available
+    const getRandomIndex = (limit: number) => {
+      if (typeof window !== 'undefined' && window.crypto) {
+        return window.crypto.getRandomValues(new Uint32Array(1))[0] % limit;
+      }
+      return Math.floor(Math.random() * limit);
+    };
+
     if (zodiacs.length > 0) {
-      this._myZodiac.set(zodiacs[Math.floor(Math.random() * zodiacs.length)]);
+      this._myZodiac.set(zodiacs[getRandomIndex(zodiacs.length)]);
     }
 
     if (ascendants.length > 0) {
-      this._myAscendant.set(ascendants[Math.floor(Math.random() * ascendants.length)]);
+      this._myAscendant.set(ascendants[getRandomIndex(ascendants.length)]);
     }
   }
 
